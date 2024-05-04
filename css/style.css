@@ -121,6 +121,42 @@ a {
     margin-bottom: 5px;
 }
 
+.logo-booki {
+    height: auto;
+    width: 75px;
+}
+
+
+
+    
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 68px;
+    padding-top: 20px;
+ 
+}
+.menu {
+     margin-left: 50px;
+    padding-top: 16px;
+    border-top: 2px transparent solid;
+
+}
+
+.menu:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+  }
+
+.logo-booki {
+    width: 75px;
+    height: auto;
+   
+}
+header {
+    margin-bottom:50px;
+}
 
 
 
