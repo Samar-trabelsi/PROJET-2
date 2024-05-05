@@ -135,8 +135,9 @@ nav {
     align-items: end;
     gap: 68px;
     padding-top: 20px;
- 
+
 }
+
 .menu {
      margin-left: 50px;
     padding-top: 16px;
@@ -158,6 +159,70 @@ header {
     margin-bottom:50px;
 }
 
+
+p {
+    margin-top: -7px;
+    margin-bottom: 45px;
+}
+
+
+#boutonRechercher {
+    display: flex;
+   flex-direction: row;    
+}
+
+
+#Rechercher {
+   display: flex;
+   flex-direction: row; 
+    border: 1px solid rgba(242, 242, 242, 1); 
+    font-size: 18px;
+    font-weight: bold;
+    width: 178px; 
+    height: 49px;
+    text-align: center;
+    outline: none;
+}
+
+#Rechercher::placeholder {
+    display: flex;
+    align-items: center ;
+    color: black;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.fas {
+    color: rgb(0, 0, 0); 
+    width: 14px;
+    height: 18px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    width: 50px; 
+    height: 52px; 
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 15px 0 0 15px;  
+}
+
+
+input[type="submit"] {
+    background-color:rgba(0, 101, 252, 1); 
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius:0 15px 15px 0 ;
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
