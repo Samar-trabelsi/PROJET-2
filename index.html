@@ -14,49 +14,51 @@
 </head>
 <body>
  <div class="main-container">
-    <header>
-        <img class="logo-booki" src="images/logo/Booki.png" alt="Logo Booki">
-        <nav>
-            
-          
-            <div class="nav-bar">
-                <a href="#hebergements" class="menu" id="link-hebergements">Hébergements</a>
-                <a href="#activités" class="menu" id="link-activités">Activités</a>
-               </div>
-               </nav>
-        </header>
+     <header>
+         <img class="logo-booki" src="images/logo/Booki.png" alt="Logo Booki">
+         <nav>
+             <div class="nav-bar">
+                 <a href="#hebergements" class="menu" id="link-hebergements">Hébergements</a>
+                 <a href="#activités" class="menu" id="link-activités">Activités</a>
+             </div>
+         </nav>
+     </header>
+
  <section class="info-group ">
 
-    <h2 class="headline-title"> Trouvez votre hébergement pour des vacances de rêve</h2>
-    <p class="headline-paragraph">En plein centre-ville ou en pleine nature </p>
-    <div class="search-bar"> 
-            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
-            <input value="Marseille, France" class="champ-recherche">
-            <button type="submit" class="search-button"><i class="fa-sharp fa-solid fa-magnifying-glass search-icon" style="color: #ffffff;"></i>Rechercher</button>
-    </div>
+             <h1 class="headline-title"> Trouvez votre hébergement pour des vacances de rêve</h1>
+             <p class="headline-paragraph">En plein centre-ville ou en pleine nature </p>
+    <form action="/search" method="GET" class="search-bar">
+             <i class="fa-solid fa-location-dot"></i>
+             <input type="text" name="query" value="Marseille, France" class="champ-recherche">
+         <button type="submit" class="search-button">
+             <i class="fa-sharp fa-solid fa-magnifying-glass search-icon"></i>
+             Rechercher
+         </button>
+    </form>
 
-    <div class="filter-bar">
-    <div class="filter-title"><h3>Filtres</h3></div>
-           <div class="filter">
-            <div class="filter-option" id="economique">
-                <div class="option"> <i class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i> Économique </div>
+     <div class="filter-bar">
+         <div class="filter-title"><h3>Filtres</h3></div>
+             <div class="filter">
+                 <div class="filter-option" id="economique">
+                     <div class="option"> <i class="fa-solid fa-money-bill-wave"></i> Économique </div>
                  </div>
-               <div class="filter-option" id="familial">
-                 <div class="option"><i class="fa-solid fa-person" style="color: #0065fc;"></i> Familial </div>
-               </div>
-               <div class="filter-option" id="romantique">
-                 <div class="option"><i class="fa-solid fa-heart" style="color: #0065fc;"></i> Romantique </div>
-               </div>
-               <div class="filter-option" id="pepites">
-                 <div class="option"><i class="fa-solid fa-fire" style="color: #0065fc;"></i> Nos pépites </div>
-               </div>
-           </div>  
-        </div>
+                     <div class="filter-option" id="familial">
+                         <div class="option"><i class="fa-solid fa-person"></i> Familial </div>
+                     </div>
+                         <div class="filter-option" id="romantique">
+                             <div class="option"><i class="fa-solid fa-heart"></i> Romantique </div>
+                         </div>
+                             <div class="filter-option" id="pepites">
+                                 <div class="option"><i class="fa-solid fa-fire"></i> Nos pépites </div>
+                             </div>
+            </div>  
+     </div>
     
-      <div class="info"> 
-        <div class="info-icon"><i class="fa-solid fa-info" style="color: #0065fc;"></i> </div>
-      <div class="info-paragraph"> <p>Plus de 500 logements sont disponibles dans cette ville</p> </div>  
-    </div>
+     <div class="info"> 
+             <div class="info-icon"><i class="fa-solid fa-info"></i> </div>
+             <div class="info-paragraph"> <p>Plus de 500 logements sont disponibles dans cette ville</p> </div>  
+     </div>
    
  </section>
   
@@ -64,7 +66,7 @@
             <div class="hebergements-and-populaires">
                 <section class="hebergements" id="hebergements">
                     <h2 class="section-title">Hébergements à Marseille </h2>
-                <div class="hebergements-cards">
+                 <div class="hebergements-cards">
                     
                         <a href="#">
                             <article class="card">
@@ -81,8 +83,8 @@
                                             <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                             <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                  </div>
+                                        </div>
+                                </div>
                             </article>
                         </a> 
                             <a href="#">
@@ -100,8 +102,8 @@
                                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                                 <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                                 <span class="sr-only">Note de 4 sur 5</span>
-                                        </div>
-                                      </div>
+                                            </div>
+                                    </div>
                                 </article>
                             </a>
                             <a href="#">
@@ -119,8 +121,8 @@
                                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                                 <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                                 <span class="sr-only">Note de 4 sur 5</span>
-                                        </div>
-                                      </div>  
+                                            </div>
+                                    </div>  
                                 </article>
                             </a>
                             <a href="#">
@@ -138,8 +140,8 @@
                                                 <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                                 <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                                 <span class="sr-only">Note de 4 sur 5</span>
-                                        </div>
-                                      </div>
+                                            </div>
+                                    </div>
                                 </article>
                             </a> 
                         <a href="#">
@@ -157,8 +159,8 @@
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                         <span class="sr-only">Note de 4 sur 5</span>
-                                </div>
-                              </div>
+                                    </div>
+                            </div>
                         </article>
                     </a>
                         <a href="#">
@@ -176,11 +178,11 @@
                                             <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                             <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                             <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                  </div>
+                                        </div>
+                                </div>
                             </article>
                         </a>
-                    </div>
+                </div>
                     <a href="#" class="afficher-plus">Afficher plus</a>
                 </section>
 
@@ -270,7 +272,7 @@
     
              <a href="#">
                 <article class="card">
-                    <img src="images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
+                    <img src="images/activites/paul-hermann.jpg" alt="Fort-de-Pomègues">
                     <div class="card-txt">
                         <h3 class="card-title">Fort de Pomègues</h3>
                     </div>

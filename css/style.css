@@ -115,7 +115,9 @@ header {
     padding: 16px 18px;
     background-color: #F2F2F2;
 }
-
+.search-icon{
+    color: white;
+}
 input {
     flex: auto;
     font-size: 17px;
@@ -149,7 +151,7 @@ input {
     margin: 35px 0;
 }
 
-  .filter-title h3 {
+.filter-title h3 {
     margin-right: 10px;
 }
 
@@ -188,9 +190,24 @@ input {
 .filter-option:hover .option {
     background-color: #DEEBFF;
 }
- 
+
+.fa-person{
+    color:#0065fc ;
+}
+
+.fa-heart{
+    color: #0065fc;
+}
+
+.fa-fire{
+    color: #0065fc;
+}
+
 /********************* Info bar ****************/
-  
+
+.fa-info{
+    color: #0065fc;
+}
 .info .fa-solid.fa-info {
     background-color: #fff;
     font-size: 10px;
@@ -236,6 +253,9 @@ input {
     color: var(--main-bg-color)
 }
 
+.fa-solid.fa-location-dot{
+    color: #000000;
+}
 /************* Hebergements And Populaires *************/
 
 .hebergements-and-populaires {
@@ -301,6 +321,7 @@ input {
 }
 
 /********************* Populaires ****************/
+
 .populaires {
     width: 32%;
 }
